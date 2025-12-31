@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福岡吃吃喝喝 2026 - 旅遊手冊</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f9fafb; /* 淺灰背景 */
+            color: #374151; /* 深灰文字 */
+        }
+        .accent-color { color: #e11d48; } /* 強調色 (類似 Azuki 的紅色) */
+        .timeline-item {
+            position: relative;
+            padding-left: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-left: 2px solid #e5e7eb; /* 時間軸線條 */
+        }
+        .timeline-item:last-child { border-left: transparent; }
+        .timeline-marker {
+            position: absolute;
+            left: -0.65rem;
+            top: 0.25rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            background-color: #fff;
+            border: 3px solid #e11d48;
+            border-radius: 50%;
+        }
+        .food-spot { color: #e11d48; font-weight: 500; } /* 美食景點樣式 */
+        .shopping-spot { color: #0891b2; font-weight: 500; } /* 購物景點樣式 */
+    </style>
+</head>
+<body>
+
+    <header class="bg-white py-12 px-4 shadow-sm text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">福岡吃吃喝喝 2026</h1>
+            <p class="text-lg text-gray-500 mb-2">📅 2026/01/09 (五) — 2026/01/13 (二)</p>
+            <p class="text-md text-gray-500">🏨 住宿：Via Inn 博多口站前</p>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto py-10 px-4 sm:px-6">
+
+        <section id="day1" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-600 text-white py-1 px-3 rounded mr-3 text-sm">DAY 1</span>
+                01/09 (五) 抵達與天神爆買爆吃
+            </h2>
+            <div class="pl-2">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">08:00</span> ✈️ 桃園國際機場第二航廈
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">10:00</span> 🛬 福岡機場國際線
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">11:26</span> 🏨 Via Inn 博多口站前 (放行李)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">12:34</span> <span class="food-spot">🍜 麵屋兼虎 博多DEITOS店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">13:41</span> <span class="food-spot">☕ FUGLEN FUKUOKA</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">14:58</span> <span class="food-spot">🍱 博多名代 吉塚鰻魚屋</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">16:02</span> ⛩️ 櫛田神社
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">17:06</span> 🚶 川端通商店街
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">18:14</span> 📍 天神南
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">19:20</span> <span class="shopping-spot">🛍️ KBF</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">20:26</span> <span class="shopping-spot">🛍️ ガチャガチャの森 天神西通り店 (扭蛋之森)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">20:30</span> <span class="food-spot">🥩 Yakiniku AGITO HIRAO (燒肉)</span> (自訂)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">21:30</span> <span class="shopping-spot">🛍️ SHIRO 岩田屋店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">22:34</span> <span class="shopping-spot">🛍️ mont-bell 福岡天神店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">23:40</span> <span class="food-spot">🥯 dacō 福岡（ダコー福岡）</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">00:49</span> 🍸 NONE TOO SOON LIFE & OBJECT
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">21:54</span> 🛌 Via Inn 博多口站前 (回飯店)
+                </div>
+            </div>
+        </section>
+
+        <section id="day2" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-600 text-white py-1 px-3 rounded mr-3 text-sm">DAY 2</span>
+                01/10 (六) 由布院溫泉與美食一日遊
+            </h2>
+            <div class="pl-2">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">08:00</span> 🏨 Via Inn 博多口站前
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">09:09</span> 🚅 博多車站 (出發)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">12:39</span> <span class="food-spot">🍚 由布釜飯「心」金鱗湖本店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">13:42</span> 🏞️ 金鱗湖
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">14:45</span> ⛩️ 水上鳥居(天祖神社)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">15:53</span> 🦉 湯布院貓頭鷹之森
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">17:53</span> 🏘️ 湯布院花卉村 (Yufuin Floral Village)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">18:57</span> <span class="food-spot">☕ 湯布珈琲</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">19:59</span> <span class="food-spot">🍵 日本茶5toku（抹茶專賣店）</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">21:01</span> <span class="food-spot">🍮 鞠智 cucuchi（銅鑼燒和咖啡館）</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">22:02</span> <span class="food-spot">🧀 由布院 Milch 布丁 半熟起司蛋糕</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">00:02</span> <span class="food-spot">🧁 可麗露 Carandonel</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">01:05</span> 🚉 由布院站 (回程)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">04:21</span> 📍 博多
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">05:27</span> <span class="food-spot">🍲 博多牛腸鍋 大山 KITTE博多店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">06:35</span> 🛌 Via Inn 博多口站前
+                </div>
+            </div>
+        </section>
+
+        <section id="day3" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-600 text-white py-1 px-3 rounded mr-3 text-sm">DAY 3</span>
+                01/11 (日) 太宰府祈福與天神續攤
+            </h2>
+            <div class="pl-2">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">08:00</span> 🏨 Via Inn 博多口站前
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">09:00</span> ⛩️ 寶滿宮 灶門神社
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">10:00</span> ⛩️ 天開稻荷神社
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">11:09</span> ⛩️ 太宰府天滿宮
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">12:16</span> <span class="food-spot">🍱 YAMAYA BASE 太宰府 (明太子)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">13:46</span> 🚉 西鐵福岡（天神）
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">14:55</span> <span class="food-spot">🍜 麵屋 Gaga 天神店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">16:02</span> <span class="food-spot">☕ 藍瓶咖啡 福岡天神店 (Blue Bottle)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">17:00</span> <span class="food-spot">🍱 KURODAHAN</span> (自訂)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">17:03</span> ⛩️ 警固神社 鳥居
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">18:08</span> <span class="food-spot">🥯 dacō 福岡（ダコー福岡）</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">18:18</span> 🏢 ONE FUKUOKA 大樓
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">19:24</span> 📍 西鐵福岡（天神）
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">19:27</span> <span class="food-spot">🍞 Full full</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">20:30</span> <span class="shopping-spot">🛍️ Mina 天神</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">21:00</span> <span class="food-spot">🍲 Hakata Motsushō (博多もつ将)</span> (自訂)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">22:27</span> 🛌 Via Inn 博多口站前
+                </div>
+            </div>
+        </section>
+
+        <section id="day4" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-600 text-white py-1 px-3 rounded mr-3 text-sm">DAY 4</span>
+                01/12 (一) 大濠公園散策與咖啡巡禮
+            </h2>
+            <div class="pl-2">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">08:00</span> 🏨 Via Inn 博多口站前
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">09:07</span> <span class="shopping-spot">🛍️ MARKS & WEB</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">10:09</span> <span class="shopping-spot">🛍️ BAUM アミュプラザ博多 (AMU PLAZA)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">11:21</span> <span class="food-spot">☕ Fuk Coffee</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">12:25</span> <span class="food-spot">🥟 博多 祇園 鐵鍋煎餃</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">13:44</span> 🏞️ 大濠公園
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">14:44</span> <span class="food-spot">☕ FUK COFFEE Parks</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">15:44</span> 🏯 福岡城
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">16:58</span> 📍 赤坂煙草店 (Akasaka Tabacco Shop)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">18:28</span> ⛩️ Iki Shrine First Torii Gate (壹岐神社一之鳥居)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">19:30</span> <span class="food-spot">🥩 燒肉上 (Yakiniku Jyo)</span> (自訂)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">20:47</span> <span class="shopping-spot">🛍️ 大賀藥局 博多口店</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">21:51</span> 🛌 Via Inn 博多口站前
+                </div>
+            </div>
+        </section>
+
+        <section id="day5" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-600 text-white py-1 px-3 rounded mr-3 text-sm">DAY 5</span>
+                01/13 (二) 最後的美食衝刺
+            </h2>
+            <div class="pl-2">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">08:00</span> 🏨 Via Inn 博多口站前 (退房)
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">09:19</span> <span class="food-spot">☕ Coffee County Fukuoka</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">10:33</span> <span class="food-spot">🥐 Dacomecca (人氣麵包店)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">11:39</span> <span class="food-spot">🍜 Menya ISHII (麺や石井)</span>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <span class="font-bold">12:53</span> <span class="food-spot">🍜 博多雞soba 建 TATERU（たてる）</span>
+                </div>
+                <div class="timeline-item bg-gray-50 p-3 rounded text-center text-gray-500">
+                    👋 行程結束，前往機場
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-gray-400 text-sm">
+        <p>© 2026 福岡吃吃喝喝之旅 | Created based on ChicTrip Itinerary</p>
+    </footer>
+
+</body>
+</html>
